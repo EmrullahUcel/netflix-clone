@@ -1,5 +1,4 @@
-import React from 'react'
-
+import MainLayout from "/src/layouts/main/MainLayout";
 const NewAndPopular = () => {
   return (
     <div>NewAndPopular</div>

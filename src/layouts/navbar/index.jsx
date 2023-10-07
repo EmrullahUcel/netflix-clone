@@ -6,14 +6,13 @@ import Users from "./users";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex h-[68px] justify-between items-center bg-[#141414] ">
+    <nav className="w-full flex h-[68px] justify-between items-center ">
       <div className="ml-[60px]  flex items-center w-[775px] text-[14px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 48 48"
           width="94px"
           height="124px"
-          d
         >
           <path
             fill="#F44336"
@@ -21,7 +20,7 @@ const Navbar = () => {
           />
         </svg>
         <div className="w-[600px] flex gap-5 justify-center text-[14px] font-semibold">
-          <NavLink className="w-auto hover:opacity-50 font-medium" to="/">
+          <NavLink className="w-auto hover:opacity-50 font-medium" to="/home">
             Ana Sayfa
           </NavLink>
           <NavLink className="w-auto hover:opacity-50 font-medium" to="/series">

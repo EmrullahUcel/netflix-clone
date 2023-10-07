@@ -1,9 +1,7 @@
-import React from 'react'
+import MainLayout from "/src/layouts/main/MainLayout";
 
 const Series = () => {
-  return (
-    <div>Series</div>
-  )
-}
+  return <div>Series</div>;
+};
 
-export default Series
+export default Series;

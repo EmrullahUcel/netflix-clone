@@ -1,0 +1,81 @@
+const Data = [
+  {
+    id: 1,
+    status: "Yeni İçerik",
+    title: "Hava Muhalefeti",
+    image: "/notificatiosdata/images/havamuhalefeti.jpg",
+    description: "6 gün önce",
+  },
+  {
+    id: 2,
+    status: "Yeni İçerik",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/karakaplidefter.jpg",
+    description: "4 gün önce",
+  },
+  {
+    id: 3,
+    status: "Sex Education",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/sexeducation.jpg",
+    description: "3 gün önce",
+  },
+  {
+    id: 4,
+    status: "Freestyle",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/freestyle.jpg",
+    description: "5 gün önce",
+  },
+  {
+    id: 5,
+    status: "Perşembe Dulları",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/persembedullari.jpg",
+    description: "4 gün önce",
+  },
+  {
+    id: 6,
+    status: "Çakallarla Dans",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/cakallarladans.jpg",
+    description: "5 gün önce",
+  },
+  {
+    id: 7,
+    status: "One Piece",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/onepiece.jpg",
+    description: "6 gün önce",
+  },
+  {
+    id: 8,
+    status: "Kim Bu Erin Carter ?",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/kimbuerincarter.jpg",
+    description: "1 hafta önce",
+  },
+  {
+    id: 9,
+    status: "Ruh Kapanı",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/ruhkapani.jpg",
+    description: "5 gün önce",
+  },
+  {
+    id: 10,
+    status: "Kötü Adamın 10 günü",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/kötüadaminongünü.jpg",
+    description: "5 gün önce",
+  },
+  {
+    id: 11,
+    status: "Peaky Blinders",
+    title: "Kara Kaplı Defter",
+    image: "/notificatiosdata/images/peakyblinders.jpg",
+    description: "5 gün önce",
+  },
+];
+
+export default Data;
