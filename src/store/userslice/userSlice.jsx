@@ -25,8 +25,7 @@ const initialState = {
   ],
   selectedUser: null,
   users: [
-    { name: "emrullah", password: "123456" },
-    { name: "songul", password: "123456" },
+    { name: "admin", password: "123456" },
   ],
   isLogin: false,
   authUser: null,
