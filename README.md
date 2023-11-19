@@ -39,7 +39,7 @@ Bu proje ilk clone projem olup hala devam etmektedir ve Netflix'in temel işlevs
 4. Uygulamayı başlatın:
 
    ```bash
-   npm start dev
+   npm run dev
    ```
 
 5. Giriş için
