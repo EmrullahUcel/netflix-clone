@@ -2,13 +2,11 @@ import React from "react";
 
 const LoginHeader = () => {
   return (
-    <div className="w-full h-[90px] flex relative">
+    <div className="w-full h-[90px] flex relative z-30 md:bg-black">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48"
-        width="167px"
-        height="171px"
-        className="absolute top-[-40px] left-[40px]"
+        className="absolute top-[-40px] left-[20px] w-[167px] h-[171px] sm:w-[74px] sm:h-[130px]"
       >
         <path
           fill="#F44336"

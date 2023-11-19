@@ -17,7 +17,7 @@ const Notifications = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative z-20">
       <div className="relative">
         <svg className="w-6 h-6 cursor-pointer" onMouseEnter={hover}>
           <path

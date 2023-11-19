@@ -2,8 +2,8 @@ import React from "react";
 
 const LoginFooter = () => {
   return (
-    <div className="w-full flex justify-center  h-[261px] bg-black bg-opacity-75">
-      <div className="text-gray-400 w-[1000px] gap-5 flex flex-col  py-8">
+    <div className="w-full flex justify-center px-[15%] h-[261px] bg-black bg-opacity-75 md:bg-black">
+      <div className="text-gray-500 w-full gap-5 flex flex-col z-30 py-8">
         <div className="text-[16px]">
           <span>
             Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın
@@ -11,32 +11,32 @@ const LoginFooter = () => {
         </div>
         <div>
           <ul className="flex flex-wrap w-full text-[13px] h-16 ">
-            <li className="w-[250px]">
+            <li className="w-[250px] md:w-[140px] sm:w-[50px]">
               <span>
                 <a href="">SSS</a>
               </span>
             </li>
-            <li className="w-[250px]">
+            <li className="w-[250px] md:w-[140px] sm:w-[50px]">
               <span>
                 <a href="">Yardım Merkezi</a>
               </span>
             </li>
-            <li className="w-[250px]">
+            <li className="w-[250px] md:w-[140px] sm:w-[50px]">
               <span>
                 <a href="">Kullanım Koşulları</a>
               </span>
             </li>
-            <li className="w-[250px]">
+            <li className="w-[250px] md:w-[140px] sm:w-[50px]">
               <span>
                 <a href="">Gizlilik</a>
               </span>
             </li>
-            <li className="w-[250px]">
+            <li className="w-[250px] md:w-[140px] sm:w-[50px]">
               <span>
                 <a href="">Çerez Tercihleri</a>
               </span>
             </li>
-            <li className="w-[250px]">
+            <li className="w-[250px] md:w-[140px] sm:w-[50px]">
               <span>
                 <a href="">Kurumsal Bilgiler</a>
               </span>

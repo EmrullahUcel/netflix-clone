@@ -6,8 +6,8 @@ import Users from "./users";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex h-[68px] justify-between items-center ">
-      <div className="ml-[60px]  flex items-center w-[775px] text-[14px]">
+    <nav className="w-full flex h-[68px] justify-between items-center z-20 px-20">
+      <div className=" flex items-center w-[775px] text-[14px] z-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 48 48"
@@ -46,10 +46,9 @@ const Navbar = () => {
           </NavLink>
         </div>
       </div>
-
       <div className="h-full flex-1 flex gap-1 ">
         <div className="flex-1"></div>
-        <div className="flex items-center w-[450px] gap-7 h-full  mr-[0%]">
+        <div className="flex items-center w-[450px] gap-7 h-full  ">
           <SearchBar />
           <Notifications />
           <Users />

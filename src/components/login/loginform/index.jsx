@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "../../../store/userslice/userSlice";
+import { loginUser } from "/src/store/userslice/userSlice";
 import { useNavigate } from "react-router-dom";
 
 const LoginForm = () => {
@@ -9,10 +9,7 @@ const LoginForm = () => {
     password: null,
   });
   const isLogin = useSelector((state) => state.userSlice.isLogin);
-  const users = useSelector((state) => state.userSlice.users);
-  users.map((user) => {
-    return console.log(user);
-  });
+
   const dispatch = useDispatch();
   function handleSubmit(e) {
     e.preventDefault();
@@ -23,7 +20,7 @@ const LoginForm = () => {
     const { name, value } = e.target;
     setAuth({ ...auth, [name]: value });
   };
-  console.log(auth);
+
   useEffect(() => {
     if (isLogin) {
       navigate("users");
@@ -33,7 +30,7 @@ const LoginForm = () => {
   }, [isLogin]);
 
   return (
-    <div className="w-[450px] flex min-h-screen">
+    <div className="w-[450px] flex min-h-screen z-30 md:bg-black md:w-full ">
       <div className=" bg-black bg-opacity-[0.75] h-[660px] w-full items-start pt-[60px] px-16">
         <div className=" flex flex-col h-[334px] gap-5">
           <h1 className="text-[32px] font-semibold">Oturum Aç</h1>
@@ -63,7 +60,7 @@ const LoginForm = () => {
             </div>
             <button
               type="submit"
-              onClick={() => dispatch(login(true))}
+              onClick={() => dispatch(loginUser(auth))}
               className="bg-[#E50914] text-white font-bold rounded-[4px] mt-6 p-[13px]"
             >
               Oturum Aç

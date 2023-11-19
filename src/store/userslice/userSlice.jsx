@@ -26,9 +26,10 @@ const initialState = {
   selectedUser: null,
   users: [
     { name: "emrullah", password: "123456" },
-    { name: "songül", password: "123456" },
+    { name: "songul", password: "123456" },
   ],
   isLogin: false,
+  authUser: null,
 };
 
 const userSlice = createSlice({
@@ -37,15 +38,25 @@ const userSlice = createSlice({
   reducers: {
     selectUser: (state, action) => {
       state.selectedUser = action.payload;
-      console.log(state.selectedUser);
     },
     login: (state, action) => {
       state.isLogin = action.payload;
-      console.log(state.isLogin);
+    },
+    loginUser: (state, action) => {
+      const { name, password } = action.payload;
+      const user = state.users.find(
+        (user) => user.name === name && user.password === password
+      );
+      if (user) {
+        state.isLogin = true;
+      } else {
+        alert("kullanıcı adı yada şifre yanlış");
+        state.isLogin = false;
+      }
     },
   },
 });
 
-export const { selectUser, login } = userSlice.actions;
+export const { selectUser, login, loginUser } = userSlice.actions;
 
 export default userSlice.reducer;
